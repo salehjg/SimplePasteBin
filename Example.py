@@ -1,9 +1,3 @@
-# SimplePasteBin
-A Simple Python3 Library For PasteBin.com
-
-# Example
-Instantiate the class, login, and create a paste.
-```
 import SimplePasteBin as helper
 
 pb = helper.SimplePasteBin(
@@ -19,4 +13,3 @@ if ret_val == 0:
     exit(0)
 else:
     exit(1)
-```
